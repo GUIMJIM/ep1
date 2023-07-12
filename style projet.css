@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+  }
+  
+  .overlap {
+    position: relative;
+    top: auto;
+  }
+  .jimmy{
+    position: relative;
+    top: auto;
+    height: auto;
+    width: 600px;
+  }
+  .marc{
+    position: relative;
+    top: auto;
+    height: auto;
+    width: 600px;
+  }
+  
+  .overlap + .jimmy +{
+    left: auto;
+    right: 1px;
+  }
+  .marc + .jimmy +{
+    left: auto;
+    right: auto;
+  }
+  
+     @media screen and (min-width: 500px){
+        body {
+          background-color: lightgreen;}
+      }
+.container {
+    display: flex;      
+    flex-direction: column;
+    height:auto;
+    width:1000px;
+  }
+  .essaie {
+    display: flex;      
+    flex-direction: row;
+    height:auto;
+    width:1000px;
+  }
